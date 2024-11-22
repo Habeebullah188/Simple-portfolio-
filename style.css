@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+.header {
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+.first1 {
+  font-size: 1.8rem;
+  color: orangered;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.first2 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: 0.3s ease;
+  padding-left: 20px;
+}
+
+.first2 a:hover {
+  color: orangered;
+  text-decoration: underline;}
+.sleep {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: bold;
+  border: solid transparent;
+  transition: 0.2s;
+  font-size: 16px;
+  padding: 10px 28px;
+  margin-right: 120px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+  .sleep:hover{background-color: orangered;
+  color: white;
+  transform: translateY(-5px)}
+
+
+  .like{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 12% 0;
+  gap: 2.5rem;  }
+
+
+  .like h3{font-weight: 900 bold;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .like h2{font-size: 3rem;
+        font-weight: 600;
+      max-width: 80%;
+    max-height: 2%;
+    padding-bottom: 100px;}
+
+  .rete{
+  margin-right: 130px;
+margin-top: 165px;}
+.rete img{
+border-radius: 50%;
+width: 500px;}
+
+  .span{color: orangered}
+
+  button{margin-bottom:0px;
+  padding: 8px 15px;
+color: white;
+background-color: purple;
+font-size: 1.0rem;
+transition: 0.3s;
+margin-top: 15px;}
+
+button:hover{background-color: orangered;
+            color: white;
+          cursor: pointer;}
+
+
+
+          .Experience {
+            border-radius: 8px;
+            border:2px solid transparent ;
+            padding :13px 25px;
+            color:white;
+            background-color: orangered;    
+            transition :0.3s;
+            font-size:1.5rem;
+            cursor:pointer;
+            letter-spacing:1px;
+            font-weight: 800;
+            text-decoration: none;
+            
+        }
+        
+        .Experience:hover {
+            color:orangered;
+            background-color:purple;      
+        }      
+        span{color: orangered;}
+
+
+
+
+   .container{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: initial;
+    padding-left: 80px;
+
+   }     
+
+   .container p{color: white;
+          word-spacing: 4px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+      font-size: 1.2rem;
+    line-height: 1.4;}
+
+    .container h2{color: white;
+      font-size: 55px;
+      padding-top: 30px;
+    }      
+    .container h3{color: white;
+    font-size: 42px;
+  text-decoration: underline;}
+
+
+  .Contact h2{text-align: center;
+    font-size: 36px;
+    margin-top: 2rem;
+          }
+
+form{
+line-height: 1.5;
+width: 150px;
+text-align: left;
+padding-left: 30px;}
+
+#poll{margin-left: 30px;}
+
+button{margin-left: 350px;
+        margin-bottom: 120px;}
+
+        .footer{height:150px;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        align-items: center;
+        padding: 30px 0;
+      }
+
+      .social{text-align: center;
+        margin-bottom: 20px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .social a{color: white;
+    border: 2px orangered;
+  box-shadow: 0 2px 8px orangered;
+transition: 0.3s;}
+
+.social a:hover{color: orangered;
+transform: translateY(-15px);
+border: 2px solid orangered;}
+    
+
+   .footer   ul{text-align: center;
+
+      line-height: 1.6;
+      font-size: 15px;
+      gap: 1rem;
+    }
+.footer ul li {color: white;
+    transition-delay: 0.1s;
+    gap: 2rem;
+    display: inline-flex;
+    gap: 60px;
+  }
+
+  .footer ul li:hover{color: orangered;
+    cursor: pointer;
+   
+  }
+
+  .copyright{color: white;
+  padding-top: 2px;}
+
+  
